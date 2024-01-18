@@ -28,7 +28,7 @@ pipeline{
                                artifacts: [
                                    [artifactId: 'compte-service' ,
                                    classifier: '',
-                                   file: 'target/vprofile-v2.jar',
+                                   file: 'target/compte-service-0.0.1-SNAPSHOT.jar',
                                    type: 'jar']
                                ]
                            )
