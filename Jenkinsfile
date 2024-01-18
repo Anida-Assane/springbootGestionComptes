@@ -21,8 +21,8 @@ pipeline{
                                nexusVersion: 'nexus3',
                                protocol: 'http',
                                nexusUrl: "localhost:8081",
-                               groupId: 'org.sig',
-                               version: "2",
+                               groupId: 'org.sid',
+                               version: "0.0.1-SNAPSHOT",
                                repository: "checkpoin-cicd",
                                credentialsId: "nexusCredential",
                                artifacts: [
