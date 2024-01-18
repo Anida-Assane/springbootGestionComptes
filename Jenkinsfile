@@ -1,12 +1,19 @@
 pipeline{
    agent any
      stages{
-       stage("build"){
+       stage("Message"){
            steps{
               script{
                  echo "hello world!"
               }
            }
+       }
+       stage("build"){
+          steps{
+             script{
+             bat "mvn package"
+             }
+          }
        }
      }
    }
