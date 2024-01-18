@@ -20,7 +20,7 @@ pipeline{
                            nexusArtifactUploader(
                                nexusVersion: 'nexus3',
                                protocol: 'http',
-                               nexusUrl: "http://localhost:8081/",
+                               nexusUrl: "localhost:8081",
                                groupId: 'org.sig',
                                version: "2",
                                repository: "checkpoin-cicd",
